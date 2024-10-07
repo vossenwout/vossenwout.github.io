@@ -12,7 +12,7 @@ export default function Home() {
       description:
         "CREV is a Go-based CLI tool designed to get AI-powered code reviews from your terminal. The idea came from my frustration with manually copying code into ChatGPT or Claude to get feedback on my projects. Although ChatGPT could provide me with useful suggestions, it lacked the full context of my project, which often resulted in incomplete reviews since it didn’t know my entire directory structure and the content of all the files. I wanted to fix that, while also eliminating the constant switching between VSCode and my browser.",
       url: "https://crevcli.com",
-      githubUrl: "https://github.com/vossenwout/crevcli",
+      githubUrl: "https://github.com/vossenwout/crev",
       image: "/images/crev.png",
       launchDate: "October 2024",
       technologies: [
