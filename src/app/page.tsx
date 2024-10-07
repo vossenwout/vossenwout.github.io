@@ -2,7 +2,7 @@ import Footer from "@/components/Footer";
 import ProjectCard from "@/components/ProjectCard";
 import PublicationCard from "@/components/PublicationCard";
 import Image from "next/image";
-import { FaLinkedin, FaGithub, FaYoutube } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaYoutube, FaTwitter } from "react-icons/fa";
 
 export default function Home() {
   const projects = [
@@ -77,6 +77,13 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <FaYoutube className="text-2xl text-red-600" />
+          </a>
+          <a
+            href="https://x.com/woutvossen" // Update with your Twitter handle
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaTwitter className="text-2xl text-blue-400" /> {/* Add Twitter icon */}
           </a>
         </div>
       </section>
