@@ -58,7 +58,7 @@ export default function Home() {
   return (
     <div className="font-[family-name:var(--font-geist-sans)]">
       {/* Hero Section */}
-      <section className="bg-gray-100 pt-10 pb-10 text-center">
+      <section className="bg-gray-100 pt-10 pb-5 text-center">
         <h1 className="text-5xl font-bold mb-4">Wout Vossen</h1>
         <div className="flex justify-center mt-6 space-x-4">
           <a
@@ -86,6 +86,12 @@ export default function Home() {
             <FaTwitter className="text-2xl text-blue-400" /> {/* Add Twitter icon */}
           </a>
         </div>
+        <a
+          href="mailto:vossen.w@hotmail.com"
+          className="text-gray-700 hover:text-blue-600 transition-colors duration-300 text-md mt-6 inline-block"
+        >
+          vossen.w@hotmail.com
+        </a>
       </section>
 
       {/* About Me Section */}
