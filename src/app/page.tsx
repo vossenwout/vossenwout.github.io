@@ -8,6 +8,16 @@ export default function Home() {
   const projects = [
     {
       id: 1,
+      title: "FireUp",
+      description:
+        "FireUp is a mobile app that helps you come up with new startup ideas. Paul Graham said the best startup ideas come from problems the founders themselves faced. So I wanted to create an app which allowed me to track my daily annoyances. It also includes AI functionality to turn those annoyances into startup ideas feasible for solo founders or small teams.",
+      url: "https://apps.apple.com/us/app/fireup-ai-startup-generator/id6737740837",
+      image: "/images/fireup.png",
+      launchDate: "November 2024",
+      technologies: ["React Native", "Expo", "Google Cloud (Firebase)", "OpenAI", "RevenueCat"],
+    },
+    {
+      id: 2,
       title: "CREV",
       description:
         "CREV is a Go-based CLI tool designed to get AI-powered code reviews from your terminal. The idea came from my frustration with manually copying code into ChatGPT or Claude to get feedback on my projects. Although ChatGPT could provide me with useful suggestions, it lacked the full context of my project, which often resulted in incomplete reviews since it didn’t know my entire directory structure and the content of all the files. I wanted to fix that, while also eliminating the constant switching between VSCode and my browser.",
@@ -26,7 +36,7 @@ export default function Home() {
       ],
     },
     {
-      id: 2,
+      id: 3,
       title: "PsyScribe",
       description:
         "An AI mental health assistant that helps you organize your thoughts and feelings. This project grew out of my interest to combine my psychology background with my software engineering skills. With the OpenAI api just released, I thought it was the perfect time to start this project.",

@@ -58,7 +58,7 @@ export default function ProjectCard({ project }: any) {
             rel="noopener noreferrer"
             className="bg-white border text-black px-4 py-2 rounded hover:bg-gray-100 transition-colors"
           >
-            Visit Site
+            Check it out
           </a>
           {project.githubUrl && (
             <a
