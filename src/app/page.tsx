@@ -91,11 +91,7 @@ export default function Home() {
           <a href="https://github.com/vossenwout" target="_blank" rel="noopener noreferrer">
             <FaGithub className="text-2xl" />
           </a>
-          <a
-            href="https://www.youtube.com/channel/@pookiehd"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://www.youtube.com/@pookiehd" target="_blank" rel="noopener noreferrer">
             <FaYoutube className="text-2xl text-red-600" />
           </a>
           <a
