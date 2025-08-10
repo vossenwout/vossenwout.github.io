@@ -7,6 +7,16 @@ import { FaLinkedin, FaGithub, FaYoutube, FaTwitter } from "react-icons/fa";
 export default function Home() {
   const projects = [
     {
+      id: 0,
+      title: "Vinsight",
+      description:
+        "Vinsight is an AI youtube coach designed to help you grow your channel. As an amateur youtuber I found out the youtube advice from ChatGPT is very generic as it doesn't know my channel. So I decided to make a product capable of fetching all your youtube videos and statistics using the youtube data api, store it in a knowledgebase and implement an AI agent capable of using that to provided personalized advice.",
+      url: "https://vinsightai.com",
+      image: "/images/vinsight.png",
+      launchDate: "November 2024",
+      technologies: ["NextJS", "Google Cloud", "Google Gemini", "Youtube API"],
+    },
+    {
       id: 1,
       title: "FireUp",
       description:
@@ -37,7 +47,7 @@ export default function Home() {
     },
     {
       id: 3,
-      title: "PsyScribe",
+      title: "PsyScribe [Offline since August 2025]",
       description:
         "An AI mental health assistant that helps you organize your thoughts and feelings. This project grew out of my interest to combine my psychology background with my software engineering skills. With the OpenAI api just released, I thought it was the perfect time to start this project.",
       url: "https://psyscribe.com",
