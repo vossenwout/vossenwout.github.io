@@ -148,7 +148,7 @@ export default function Home() {
           <div className="bg-white shadow-md rounded-lg p-6 mb-6">
             <div className="flex justify-between items-center mb-4">
               <div>
-                <h3 className="text-2xl font-semibold">Data Scientist</h3>
+                <h3 className="text-2xl font-semibold">Machine Learning Engineer</h3>
                 <p className="text-gray-600">CM (Christelijke Mutualiteit)</p>
               </div>
               <span className="text-gray-500">2024 - Present</span>
@@ -158,30 +158,6 @@ export default function Home() {
               handles the entire product lifecycle, focusing mainly on NLP projects.
             </p>
             <h4 className="text-xl font-semibold mb-2">Key Contributions:</h4>
-            <ul className="list-disc list-inside text-gray-700 space-y-1">
-              <li>Built and deployed an API for email forwarding and reply suggestions.</li>
-              <li>Data extraction from medical documents and reports.</li>
-              <li>
-                Developed an AI assistant using RAG to help employees understand internal
-                documentation.
-              </li>
-              <li>Currently designing an AI assistant framework to build all future assistants.</li>
-            </ul>
-            <h4 className="text-xl font-semibold mt-4 mb-2">Most Used Technologies:</h4>
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-gray-200 text-gray-800 text-sm px-2 py-1 rounded">Python</span>
-              <span className="bg-gray-200 text-gray-800 text-sm px-2 py-1 rounded">FastAPI</span>
-              <span className="bg-gray-200 text-gray-800 text-sm px-2 py-1 rounded">
-                NLP (TensorFlow, Hugging Face)
-              </span>
-              <span className="bg-gray-200 text-gray-800 text-sm px-2 py-1 rounded">
-                GenAI (OpenAI, Anthropic)
-              </span>
-              <span className="bg-gray-200 text-gray-800 text-sm px-2 py-1 rounded">
-                AWS (SageMaker, ECS, Bedrock, Lambda, S3, ...)
-              </span>
-              <span className="bg-gray-200 text-gray-800 text-sm px-2 py-1 rounded">Terraform</span>
-            </div>
           </div>
         </div>
       </section>
