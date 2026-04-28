@@ -157,7 +157,6 @@ export default function Home() {
               At CM, I develop AI-driven solutions to enhance organizational processes. Our team
               handles the entire product lifecycle, focusing mainly on NLP projects.
             </p>
-            <h4 className="text-xl font-semibold mb-2">Key Contributions:</h4>
           </div>
         </div>
       </section>
